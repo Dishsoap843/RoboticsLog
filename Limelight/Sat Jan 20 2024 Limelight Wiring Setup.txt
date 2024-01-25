@@ -1,0 +1,8 @@
+
+1. Connect ethernet cable to open port on radio
+2. Connect ethernet cable to orange split ethernet cable to supply power to limelight camera
+3. Connect orange ethernet cable to limelight
+4. Connect power supply on orange ethernet cable to 20 amp power supply on the PDP
+5. Turn on robot
+6. Hold white button on limelight until green LED's flash
+

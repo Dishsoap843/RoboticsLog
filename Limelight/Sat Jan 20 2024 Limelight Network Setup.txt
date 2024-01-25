@@ -1,0 +1,12 @@
+
+1. Turn robot on with limelight wiring setup(refer to Limelight Wiring Setup file for help)
+2. Turn on limelight 
+3. Connect computer to robot wifi (496_496)
+4. Use limelight finder to find limelight
+5. Once limelight is found click "Configure Selected"
+6. Once connected to limelight open settings for the limelight
+7. Change the team number to 496
+8. Set IP address assignment to "Static"
+9. Set IP address to 10.4.96.11
+10. Set gateway to 10.4.96.1
+11. Power cycle the robot(turn robot off and on)

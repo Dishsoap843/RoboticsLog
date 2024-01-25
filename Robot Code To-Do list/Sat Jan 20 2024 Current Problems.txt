@@ -1,0 +1,4 @@
+
+1. Robot is connecting to computer but not game tool
+2. Update id's for neo-motors on swerve drives
+(suggestion) Look at limelight documentation under Tutorials "Aiming With Visual Servoing"

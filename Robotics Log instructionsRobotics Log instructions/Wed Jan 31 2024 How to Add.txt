@@ -1,0 +1,6 @@
+
+1. Open up Apache NetBeans and open "RoboticsLog.java" (should already be open)
+2. Click run and follow the prompts given in the console (Create/move to a new file) -> (Create file) -> (Type one line at a time with -1 to exit)
+3. Make sure NOT TO CHANGE ANY CODE (Unless you know what your doing or making it auto push to github which is the bane of my existence)
+4. Open up Git Bash and paste this line into the console (Removing quotes around it): "cd Desktop/ ; cd Robotics\ Log ; git push"
+5. Check github and watch your amazing documentation be logged!

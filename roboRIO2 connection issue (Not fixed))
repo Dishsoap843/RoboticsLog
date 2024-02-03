@@ -6,13 +6,16 @@ We tried several things:
 
 1. Connecting the RoboRIO to the computer manually works and allows for communication
 
-2. We initially pinged the roboRIO wirelessly from the computer and recieved 0 packets, we switched out the radio to the current one and now when pinging recieve 2-4 packets each time. This still did not fix the communications error however.
+2. We initially pinged the roboRIO wirelessly from the computer and received 0 packets, we switched out the radio to the current one and now when pinging recieve 2-4 packets each time. This still did not fix the communications error however.
 
 3. We tried using different wires that connected the radio to the roboRIO but it didn't change anything.
 
-4. We tried using an old roboRIO 1 and it DID work and allowed for wireless communications making us think it was a issue with the roboRIO(Currently we have the latest RoboRIO 2.0 connected)
+4. We tried using an old roboRIO 1 and it DID work and allowed for wireless communications making us think it was an issue with the roboRIO(Currently we have the latest RoboRIO 2.0 connected)
 
 5. After that we tried using an SD card with the 2022 flash connected to the roboRIO but it didn't work.
+
+6. Tried reinstalling the game tools and reflashing the latest software to the SD using Balena Etcher.
+
 
 
 Lights: (https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html)

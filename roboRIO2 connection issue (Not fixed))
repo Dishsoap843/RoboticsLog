@@ -1,5 +1,7 @@
 RoboRIO is not connecting to drive station(Communications isn't green and "RoboRIO2" is red) (error 44002)
 
+Could be a an issue with the hardware of the RoboRIO itself, could be a firewall issue on the schools computer so we are trying it on someones home computer(Although data is being sent and received with ping)
+
 The Drive Station IS connected to the Radio through wifi.
 
 We tried several things:

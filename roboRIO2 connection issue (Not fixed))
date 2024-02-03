@@ -15,12 +15,14 @@ We tried several things:
 5. After that we tried using an SD card with the 2022 flash connected to the roboRIO but it didn't work.
 
 
-Lights:
+Lights: (https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html)
 
 Power working(Not a power issue for radio or roboRIO)
 
 Status blinks for a bit when turned on then goes off
 
-Radio, Comms, and mode don't light up.
+Comms stays red when it has a manual connection but with wireless
+
+Radio dosen't light up
 
 Ethernet from radio gives power to roboRIO(Lights up at port)

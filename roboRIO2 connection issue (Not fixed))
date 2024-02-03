@@ -1,0 +1,26 @@
+RoboRIO is not connecting to drive station(Communications isn't green and "RoboRIO2" is red) (error 44002)
+
+The Drive Station IS connected to the Radio through wifi.
+
+We tried several things:
+
+1. Connecting the RoboRIO to the computer manually works and allows for communication
+
+2. We initially pinged the roboRIO wirelessly from the computer and recieved 0 packets, we switched out the radio to the current one and now when pinging recieve 2-4 packets each time. This still did not fix the communications error however.
+
+3. We tried using different wires that connected the radio to the roboRIO but it didn't change anything.
+
+4. We tried using an old roboRIO 1 and it DID work and allowed for wireless communications making us think it was a issue with the roboRIO(Currently we have the latest RoboRIO 2.0 connected)
+
+5. After that we tried using an SD card with the 2022 flash connected to the roboRIO but it didn't work.
+
+
+Lights:
+
+Power working(Not a power issue for radio or roboRIO)
+
+Status blinks for a bit when turned on then goes off
+
+Radio, Comms, and mode don't light up.
+
+Ethernet from radio gives power to roboRIO(Lights up at port)

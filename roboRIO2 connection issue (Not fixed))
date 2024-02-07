@@ -31,3 +31,11 @@ Comms stays red when it has a manual connection but with wireless
 Radio dosen't light up
 
 Ethernet from radio gives power to roboRIO(Lights up at port)
+
+
+
+
+
+SOLUTION:
+
+We were able to use the Team Number Setter to reset our team number which fixed the connection of the RoboRio2

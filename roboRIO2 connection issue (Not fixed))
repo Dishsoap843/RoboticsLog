@@ -1,6 +1,12 @@
+PROBLEM:
+
 RoboRIO is not connecting to drive station(Communications isn't green and "RoboRIO2" is red) (error 44002)
 
-Could be a an issue with the hardware of the RoboRIO itself, could be a firewall issue on the schools computer so we are trying it on someones home computer(Although data is being sent and received with ping)
+
+TROUBLESHOOTING:
+
+
+Could be an issue with the hardware of the RoboRIO itself, could be a firewall issue on the school computer so we are trying it on someone's home computer(Although data is being sent and received with ping)
 
 The Drive Station IS connected to the Radio through wifi.
 
@@ -8,7 +14,7 @@ We tried several things:
 
 1. Connecting the RoboRIO to the computer manually works and allows for communication
 
-2. We initially pinged the roboRIO wirelessly from the computer and received 0 packets, we switched out the radio to the current one and now when pinging recieve 2-4 packets each time. This still did not fix the communications error however.
+2. We initially pinged the roboRIO wirelessly from the computer and received 0 packets, we switched out the radio to the current one and now when pinging receive 2-4 packets each time. This still did not fix the communications error however.
 
 3. We tried using different wires that connected the radio to the roboRIO but it didn't change anything.
 
@@ -38,4 +44,6 @@ Ethernet from radio gives power to roboRIO(Lights up at port)
 
 SOLUTION:
 
-We were able to use the Team Number Setter to reset our team number which fixed the connection of the RoboRio2
+We were able to use the Team Number Setter in WPILib to reset our team number which fixed the connection of the RoboRio2
+
+NOTE: This also fixed an issue with the code not deploying to our robot when we built it in WPILib

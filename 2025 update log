@@ -1,0 +1,7 @@
+Common issues when getting new software from year to year typically come from certain parts being 2025 and certain parts not being updated yet
+
+1. Make sure to install new game tools/WPILib
+2. Install new dependencies, kauailabs is now under studica which was giving us problems.
+3. Adjust code to meet the syntax of new dependencies
+3. Update hardware such as power brick and motor controllers, to do this plug into the power brick -> go to the rev hardware client -> Update everything that comes up.
+4. Update Limelight

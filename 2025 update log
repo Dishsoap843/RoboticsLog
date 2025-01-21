@@ -4,4 +4,4 @@ Common issues when getting new software from year to year typically come from ce
 2. Install new dependencies, kauailabs is now under studica which was giving us problems.
 3. Adjust code to meet the syntax of new dependencies
 3. Update hardware such as power brick and motor controllers, to do this plug into the power brick -> go to the rev hardware client -> Update everything that comes up.
-4. Update Limelight
+4. Update Limelight/set team number for limelight
